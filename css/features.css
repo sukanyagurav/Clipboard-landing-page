@@ -1,0 +1,33 @@
+.features{
+    margin:3.6rem 0 0;
+}
+.feature__img-container{
+    flex:0.6;
+}
+
+.feature__container{
+    padding: 1rem;
+    flex:0.3;
+    margin: 3rem 0;
+}
+
+.feature__container .flex-col{
+    gap:2rem;
+}
+.features h3{
+    font-size: 1.5rem;
+    color:var(--dark-grayish-blue);
+}
+.features p{
+    max-width: 350px;
+}
+@media(min-width:800px){
+    .features{
+        text-align: left;
+    }
+    .feature__img{
+        position: relative;
+        left:-15%;
+        top:0;
+    }
+}

@@ -1,0 +1,89 @@
+header{
+    background-image: url('../images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 6rem;
+}
+header .logo{
+    width:140px;
+    height:140px;
+    margin-top: 10rem;
+}
+header h1{
+    font-size: 3rem;
+    color:var(--dark-grayish-blue);
+}
+.btn{
+    padding:0.96rem 2rem;
+    color:#fff;
+    letter-spacing: 0.8px;
+    border-radius: 100px;   
+    border: 0;
+    outline: none;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: opacity 0.5s;
+}
+.btn--ios{
+    background-color: var(--Cyan);
+}
+.btn:active{
+    transform:scale(1.05);
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.btn--mac{
+    background-color: var(--light-blue);
+}
+header p,
+.snippet p,
+.features p,
+.access p,
+.workflow p,
+.cta p{
+    color:var(--grayish-blue);
+    line-height: 1.4;
+}
+header p,
+.snippet p,
+.access p,
+.cta p{
+    max-width: 630px;
+    margin-inline:auto;
+    width:100%;
+}
+.header__content,
+.snippet{
+    padding-inline: 1rem;
+}
+
+.snippet h2,
+.access h2,
+.workflow__heading h2,
+.cta h4{
+    font-size: 2.3rem;
+    color:var(--dark-grayish-blue);
+}
+.cta{
+    margin: 7rem 1rem;
+}
+.cta .buttons{
+    margin-top: 2rem;
+}
+@media(min-width:800px){
+    header{
+        background-image: url('../images/bg-header-desktop.png');
+    }
+    .buttons.flex-col,
+    .workflow__list.flex-col,
+    .footer-content.flex-col,
+    .features.flex-col{
+        flex-direction: row;
+    }
+    .workflow__list.flex-col {
+        gap:2rem;
+    }
+    
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Clipboard landing page</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+<header class="flex-col">
+  <img src="images/logo.svg" alt="clipboard logo" class="logo">
+  <div class="header__content flex-col" >
+    <h1 >A history of everything you copy</h1>
+    <p >Clipboard allows you to track and organize everything you 
+      copy. Instantly access your clipboard on all your devices.</p>
+      <div class="buttons flex-col">
+        <button class="btn btn--ios">
+          Download for iOS
+        </button>
+        <button class="btn btn--mac">
+          Download for Mac
+        </button>
+      </div>
+  </div>
+  
+</header>
+  <section class="snippet flex-col">
+    <h2 data-aos="fade-up">Keep track of your snippets</h2>
+    <p data-aos="fade-up">Clipboard instantly stores any item you copy in the cloud, 
+      meaning you can access your snippets immediately on all your 
+      devices. Our Mac and iOS apps will help you organize everything.</p>
+  </section>
+<section class="features flex-col">
+  <div class="feature__img-container">
+    <img src="images/image-computer.png" data-aos="zoom-in" alt="" class="feature__img">
+  </div>
+  
+  <div class="feature__container">
+    <ul class="flex-col" data-aos="fade-up">
+      <li >
+        <h3>Quick Search</h3>
+        <p>Easily search your snippets by content, category, web address, application, and more.</p>
+      </li>
+      <li >
+        <h3>iCloud Sync</h3>
+        <p>Instantly saves and syncs snippets across all your devices.</p>
+      </li>
+      <li >
+        <h3>Complete History</h3>
+        <p>Retrieve any snippets from the first moment you started using the app.</p>
+      </li>
+    </ul>
+  </div>
+</picture>
+</section>
+  <section class="access flex-col">
+    <h2 data-aos="fade-up">Access Clipboard anywhere</h2>
+    <p data-aos="fade-up"> Whether you’re on the go, or at your computer, you can access all your Clipboard 
+      snippets in a few simple clicks.</p>
+      <img src="images/image-devices.png" data-aos="zoom-in" alt="" class="access__img">
+  </section>
+<section class="workflow flex-col">
+  <div class="workflow__heading flex-col" data-aos="fade-up">
+    <h2 > Supercharge your workflow</h2>
+    <p>We’ve got the tools to boost your productivity.</p>
+  </div>
+  <div class="workflow__list flex-col">
+   <div class="workflow__item"  data-aos="fade-up">
+    <img src="images/icon-blacklist.svg" alt="blacklist icon">
+    <h4>Create blacklists</h4>
+    <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+   </div>
+   <div class="workflow__item" data-aos-delay="150" data-aos="fade-up">
+    <img src="images/icon-text.svg" alt="text icon">
+    <h4>Plain text snippets</h4>
+    <p>Remove unwanted formatting from copied text for a consistent look.</p>
+   </div>
+   <div class="workflow__item" data-aos-delay="250" data-aos="fade-up">
+    <img src="images/icon-preview.svg" alt="preview icon" >
+    <h4>Sneak preview</h4>
+    <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+   </div>
+  </div>
+</section>
+  <section class="companies" >
+    <img data-aos="zoom-in-up" src="images/logo-google.png" alt="google company logo">
+    <img data-aos="zoom-in-up" src="images/logo-ibm.png" alt="ibm company logo">
+    <img data-aos="zoom-in-up" src="images/logo-microsoft.png" alt="microsoft company logo">
+    <img data-aos="zoom-in-up" src="images/logo-hp.png" alt="hp company logo">
+    <img data-aos="zoom-in-up" src="images/logo-vector-graphics.png" alt="vector graphics logo">
+  </section>
+  <section class="cta flex-col" data-aos="zoom-in-up">
+    <h4>Clipboard for iOS and Mac OS</h4>
+    <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+      and you’re ready to start adding to your clipboard.</p>
+      <div class="buttons flex-col">
+        <button class="btn btn--ios">
+          Download for iOS
+        </button>
+        <button class="btn btn--mac">
+          Download for Mac
+        </button>
+      </div>
+  </section>
+  <footer>
+  <div class="footer-content flex-col">
+    <img src="images/logo.svg"   alt="clipboard company logo" class="logo">
+
+
+   
+    <ul class="nav__links">
+      <li><a href="#none">FAQs</a></li>
+      <li><a href="#none">Contact Us</a></li>
+      <li><a href="#none">Privacy Policy</a></li>
+      <li><a href="#none">Press Kit</a></li>
+      <li><a href="#none">Install Guide</a></li>
+    </ul>
+      <ul class="social__links">
+        <li><a href="#none" aria-label="facebook link">
+          <img src="images/icon-facebook.svg" alt="facebook icon">
+        </a></li>
+        <li><a href="#none" aria-label="twitter link">
+          <img src="images/icon-twitter.svg" alt="twitter icon">
+        </a></li>
+        <li><a href="#none" aria-label="instagram link">
+          <img src="images/icon-instagram.svg" alt="instagram icon">
+        </a></li>
+      </ul>
+    </div>
+  <p >
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">SG</a>.
+      </p>
+  </footer> 
+  <script>
+    AOS.init({
+      offset: 200, 
+      delay: 0, 
+      duration: 500 
+    });
+  </script>
+</body>
+</html>
